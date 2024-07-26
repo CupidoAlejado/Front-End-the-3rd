@@ -1,0 +1,199 @@
+body {
+	background-color: white;
+	font-family: arial;
+	margin: 0px;
+	font-size: large;
+}
+
+.logor {
+	height: 100%
+}
+
+.logo {
+	margin-left: 1%;
+	height: 69%;
+	width: 15%;
+	background-color: transparent;
+	align-self: center;
+}
+
+.cabecalho {
+	height: 15vh;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	background-color: #44A1A0;
+	justify-content: space-between;
+}
+
+.icones {
+	margin-top: 2%;
+	background-color: transparent;
+	height: 40%;
+	width: 25%;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.navegacao {
+	background-color: transparent;
+	display: flex;
+	flex-direction: row-reverse;
+	flex-wrap: wrap;
+	height: 80%;
+	width: 25%;
+	align-self: center;
+	margin-right: 1%;
+}
+
+.menu {
+	margin-bottom: 2%;
+	margin-left: 3%;
+	height: 30%;
+	width: 94%;
+	background-color: transparent;
+	align-self: flex-end;
+	justify-content: center;
+	text-align: right;
+	align-items: center;
+	margin-top: 10%;
+	color: white;
+}
+
+.banner {
+	width: 100%;
+	background-color: transparent;
+}
+
+.banner img {
+	width: 100%;
+}
+
+.aprendemais {
+	align-self: center;
+	text-align: center;
+	margin-right: 25%;
+	margin-left: 25%;
+}
+
+.container1 {
+	background-color: transparent;
+	align-self: center;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.menu span:hover {
+	color: #CCCCCC;
+	cursor: pointer;
+}
+
+.bola {
+	padding: 10%;
+	width: 40%;
+	border: solid;
+	border-radius: 100%;
+	background-color: #2b4141;
+	border-color: #2b4141;
+	box-shadow: 5px 3px 3px 5px #CCCCCC;
+}
+
+.bola img {
+	width: 100%;
+	height: auto;
+}
+
+.materia {
+	height: 10%;
+	width: 20%;
+	display: flex;
+	flex-direction: column;
+	background-color: transparent;
+	align-items: center;
+	padding: 0%;
+	margin: 2%;
+	text-align: center;
+}
+
+.link {
+	text-align: right;
+	color: rgb(236, 142, 0);
+	width: 90%;
+}
+
+.link h2:hover {
+	color: black;
+	cursor: pointer;
+}
+
+.areas {
+	width: 96%;
+	margin: 2%;
+	display: flex;
+	text-align: center;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	color: #44A1A0;
+}
+
+hr {
+	border: solid 2px #44A1A0;
+	height: 0px;
+	width: 80%;
+}
+
+.container2 {
+	background-color: transparent;
+	margin-left: 5%;
+	margin-right: 5%;
+	width: 90%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.hgb {
+	background-color: rgb(236, 142, 0);
+	width: 25%;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	overflow: hidden;
+	border-radius: 10%;
+	color: aliceblue;
+	box-shadow:  #CCCCCC 3px 4px 4px 3px;
+}
+
+.hgb img {
+	height: 30vh;
+	width: 100%;
+}
+
+.icones2 {
+	margin-top: 2%;
+	background-color: transparent;
+	height: 40%;
+	width: 60%;
+	display: flex;
+	justify-content: space-around;
+}
+
+a{
+	text-decoration: none;
+	color: aliceblue;
+}
+
+.celula{
+	position: relative;
+}
+
+.containercel{
+	width: 100%;
+	height: 30%;
+	text-align: center;
+}
