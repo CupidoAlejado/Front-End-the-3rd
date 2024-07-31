@@ -194,25 +194,75 @@ a:hover{
 
 .center{
 	justify-content: center;
-	position: relative;
+	display: flex;
+	align-items: center;
 	text-align: center;
-	width: 1700px;
-	height: 110vh;
-	margin-top: 8vh;
+	background-color: #3b4609;
+	width: 100%;
 }
 
-#celula{
-	margin-left: 500px;
+.relative{
+	position: relative;
+}
+
+.containercel{
+
+	justify-content: center;
+	position: relative;
+	text-align: center;
+	width: 1000px;
+	height: 110vh;
+	margin-top: 8vh;
+	background-color: #2b4141;
 }
 
 #nucleo{
 	position: relative;
-	bottom: 470px;
-	right: 500px;
+	bottom: 0px;
+	right: 0px;
 }
 
 #centriolo{
 	left: 225px;
 	bottom: 424px;
-	position: relative;
 }
+
+#golgi{
+
+}
+
+#liso1
+
+#liso2
+
+#micro1
+
+#micro2
+
+#micro3
+
+#mito1
+
+#mito2
+
+#mito3
+
+#membplas
+
+#mitos
+
+#golginame
+
+#liso
+
+#micro
+
+#centri
+
+#endo
+
+#nucleoname
+
+#reticulo1
+
+#reticulo2
