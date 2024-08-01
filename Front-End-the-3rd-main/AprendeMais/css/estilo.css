@@ -197,7 +197,7 @@ a:hover{
 	display: flex;
 	align-items: center;
 	text-align: center;
-	background-color: #3b4609;
+	background-color: transparent;
 	width: 100%;
 }
 
@@ -205,64 +205,185 @@ a:hover{
 	position: relative;
 }
 
-.containercel{
-
-	justify-content: center;
+.cellfr{
 	position: relative;
-	text-align: center;
+	display: block;
+	width: 60%;
+	height: 60%;
+	zoom: 60%;
+	background-color: transparent;
+	margin-left: 20%;
+}
+
+.containercel{
+	display: block;
+	align-items: center;
+	position: relative;
 	width: 1000px;
 	height: 110vh;
 	margin-top: 8vh;
-	background-color: #2b4141;
+	background-color: transparent;
 }
 
 #nucleo{
 	position: relative;
-	bottom: 0px;
-	right: 0px;
+	bottom: 740px;
+	left: 385px;
 }
 
 #centriolo{
-	left: 225px;
-	bottom: 424px;
+	right: 57px;
+	bottom: 549px;
 }
 
 #golgi{
-
+	bottom:340px;
+	right:230px;
 }
 
-#liso1
+#liso1{
+	bottom:740px;
+	right:710px;
+}
 
-#liso2
+#liso2{
+	bottom:660px;
+	left:180px;
+}
 
-#micro1
+#micro1{
+	bottom:947px;
+	left:69px;
+}
 
-#micro2
+#micro2{
+	bottom:1210px;
+	left:383px;
+}
 
-#micro3
+#micro3{
+	bottom:790px;
+	left:25px;
+}
 
-#mito1
+#mito1{
+	bottom:1150px;
+	right:500px;
+}
 
-#mito2
+#mito2{
+	bottom:750px;
+	right:650px;
+}
 
-#mito3
+#mito3{
+	bottom:850px;
+	left:500px;
+}
 
-#membplas
+#membplas{
+	bottom:1200px;
+	right:786px;
+}
 
-#mitos
+#mitos{
+	bottom:930px;
+	left:560px;
+}
 
-#golginame
+#golginame{
+	bottom:900px;
+	left:510px;
+}
 
-#liso
+#liso{
+	bottom:1100px;
+	right:500px;
+}
 
-#micro
+#micro{
+	bottom:1700px;
+	left:650px;
+}
 
-#centri
+#centri{
+	bottom:1300px;
+	right:440px;
+}
 
-#endo
+#endo{
+	bottom:1800px;
+	left:680px;
+}
 
-#nucleoname
+#nucleoname{
+	bottom:2260px;
+	left:600px;
+}
 
-#reticulo1
+#reticulo1{
+	bottom:2150px;
+	right:290px;
+}
 
-#reticulo2
+#reticulo2{
+	bottom:2400px;
+	left:200px;
+}
+
+strong{
+	color: #44A1A0;
+}
+
+h2{
+	margin:10px;
+	margin-bottom: 4%;
+}
+
+#membplas::hover{
+	cursor: pointer;
+	bottom:1200px;
+	right:786px;
+}
+
+#mitos::hover{
+	cursor: pointer;
+	bottom:930px;
+	left:560px;
+}
+
+#golginame::hover{
+	cursor: pointer;
+	bottom:900px;
+	left:510px;
+}
+
+#liso::hover{
+	cursor: pointer;
+	bottom:1057px;
+	right:500px;
+}
+
+#micro::hover{
+	cursor: pointer;
+	bottom:1700px;
+	left:650px;
+}
+
+#centri::hover{
+	cursor: pointer;
+	bottom:1300px;
+	right:440px;
+}
+
+#endo::hover{
+	cursor: pointer;
+	bottom:1800px;
+	left:680px;
+}
+
+#nucleoname::hover{
+	cursor: pointer;
+	bottom:2260px;
+	left:600px;
+}
