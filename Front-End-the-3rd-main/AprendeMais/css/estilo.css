@@ -163,7 +163,7 @@ body {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	background-color: #2b4141;
+	background-color: transparent;
 	width: 80%;
 	margin-right: 10%;
 	margin-left: 10%;
@@ -176,7 +176,7 @@ body {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	background-color: #44A1A0;
+	background-color: transparent;
 }
 
 hr {
